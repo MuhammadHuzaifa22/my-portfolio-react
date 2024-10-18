@@ -116,15 +116,15 @@ const Home = () => {
           <h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-blue-300">
             I <span className=" text-white ">design</span> and <span className=" text-white">code simple things,</span> and I love what I do.
           </h1>
-          <div className={`h-[180px] sm:h-[200px] md:h-[230px] lg:h-[250px] w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] mx-auto mt-[80px] flex justify-center mb-[50px] rounded-full border-t-[2px]   transform duration-100  ${imageRotatingStyle ? 'border-t-[3px]' : ''}`}>
-          <div className={`absolute ml-[200px] sm:ml-[230px] md:ml-[260px] lg:ml-[280px] cursor-pointer mt-[100px] rounded-full py-[10px] px-[10px] border-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center transition duration-100    ${imageRotatingStyle ? '  transform transition ease-in duration-500 -translate-y-24 -translate-x-17' : ''}`}>
+          <div className={`h-[180px] sm:h-[200px] md:h-[230px] lg:h-[250px] w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] mx-auto mt-[80px] flex justify-center mb-[50px] rounded-md border-t-[1px] border-b-[1px]   transform duration-100  ${imageRotatingStyle ? 'border-t-[2px] border-b-[2px]' : ''}`}>
+          <div className={`absolute ml-[200px] sm:ml-[230px] md:ml-[260px] lg:ml-[280px] cursor-pointer mt-[100px] rounded-md py-[10px] px-[10px] border-t-[1px] border-b-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center transition duration-100    ${imageRotatingStyle ? '  transform transition ease-in duration-500 -translate-y-24 -translate-x-17' : ''}`}>
           <li className="flex flex-col items-center mx-2 relative group">
             
       <a
         data-social="github"
         aria-label="GitHub"
         href="https://www.github.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-full  transition-all duration-300 ease-in-out hover:text-white text-white"
+        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
       >
         <div className="absolute bottom-0 left-0 w-full h-0 bg-gray-800 transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg
@@ -143,19 +143,19 @@ const Home = () => {
       </div>
     </li>
             </div>
-          <div className={`absolute ml-[60px] sm:ml-[80px] md:ml-[100px] lg:ml-[130px] mt-[-30px]  sm:mt-[-40px] md:mt-[-50px] lg:mt-[-60px] cursor-pointer rounded-full py-[10px] px-[10px] border-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center transition duration-100 ${imageRotatingStyle ? ' transform transition ease-in-out duration-500 translate-y-32 lg:translate-y-40 translate-x-20' : ''}`}>
-          <li className="flex flex-col items-center mx-2 relative group rounded-full">
+          <div className={`absolute ml-[60px] sm:ml-[80px] md:ml-[100px] lg:ml-[130px] mt-[-30px]  sm:mt-[-40px] md:mt-[-50px] lg:mt-[-70px] cursor-pointer rounded-md py-[10px] px-[10px] border-t-[1px] border-b-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center transition duration-100 ${imageRotatingStyle ? ' transform transition ease-in-out duration-500 translate-y-32 lg:translate-y-40 translate-x-20' : ''}`}>
+          <li className="flex flex-col items-center mx-2 relative group rounded-md">
       <a
         data-social="linkedin"
         aria-label="LinkedIn"
         href="https://linkedin.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16  transition-all duration-300 ease-in-out hover:text-white hover:shadow-[3px_2px_45px_rgba(0,0,0,0.12)] rounded-full text-white"
+        className="relative overflow-hidden flex justify-center items-center w-16 h-16  transition-all duration-300 ease-in-out hover:text-white hover:shadow-[3px_2px_45px_rgba(0,0,0,0.12)] rounded-md text-white"
       >
         <div className="absolute bottom-0 left-0 w-full  bg-[#0274b3] transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg
           xmlSpace="preserve"
           viewBox="0 0 16 16"
-          className="relative z-10 w-8 h-8 rounded-full"
+          className="relative z-10 w-8 h-8"
           fill="currentColor"
         >
           <path
@@ -164,18 +164,18 @@ const Home = () => {
           />
         </svg>
       </a>
-      <div className="absolute top-5 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+      <div className="absolute top-5 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs py-1 px-2 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
         
       </div>
     </li>
             </div>
-            <div className={`absolute mr-[220px] sm:mr-[240px] md:mr-[260px] lg:mr-[280px]  cursor-pointer mt-[100px] rounded-full py-[10px] px-[10px] border-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center  transition duration-100     ${imageRotatingStyle ? 'transform transition ease-in duration-500 -translate-y-24 translate-x-2' : ''}`}>
+            <div className={`absolute mr-[220px] sm:mr-[240px] md:mr-[260px] lg:mr-[280px]  cursor-pointer mt-[100px] rounded-md py-[10px] px-[10px] border-t-[1px] border-b-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center  transition duration-100     ${imageRotatingStyle ? 'transform transition ease-in duration-500 -translate-y-24 translate-x-2' : ''}`}>
             <li className="flex flex-col items-center mx-2 relative group">
       <a
         data-social="youtube"
         aria-label="Youtube"
         href="https://youtube.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-full  transition-all duration-300 ease-in-out hover:text-white text-white"
+        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
       >
         <div className="absolute bottom-0 left-0 w-full h-0 bg-red-600 transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg
@@ -198,7 +198,7 @@ const Home = () => {
           <img
                 src={logoImage}
                 alt="Faceless-cartoon-boy"
-                className={`mx-auto mt-3 w-[160px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] rounded-full shadow-white shadow-sm`}
+                className={`mx-auto mt-3 w-[160px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] rounded-md `}
 
             />
             
@@ -301,7 +301,7 @@ const Home = () => {
         href="https://www.linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-blue-600 transition-colors duration-300 ease-in-out"
+        className="text-slate-100 hover:text-blue-400 transition-colors duration-300 ease-in-out"
       >
         <FaLinkedin className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>

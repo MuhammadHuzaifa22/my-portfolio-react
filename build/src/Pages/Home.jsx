@@ -286,7 +286,7 @@ const Home = () => {
 
 
 <h1 className="text-xl md:text-2xl lg:text-3xl lobster mt-[50px]">Reach Out</h1>
-<div className="flex space-x-6 justify-center lg:items-center flex-wrap">
+<div className="flex space-x-6 justify-center items-center flex-wrap">
       {/* YouTube */}
       <a
         href="https://www.youtube.com"

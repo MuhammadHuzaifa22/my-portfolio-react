@@ -22,14 +22,47 @@ In my free time, I <span className='text-white'>focus on</span>  expanding my <s
 
 <div className='mt-[50px]'>
 <h1 className='lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  text-white'>About My Skills</h1>
-<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-full p-[10px] relative'>
+<div className='flex w-[600px] flex-wrap  rounded-full gap-2 justify-center py-2 border-t-[1px] border-b-[1px] rounded-md'>
+
+<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
   <div className='flex justify-between'>
-  <h1 className='text-xl text-white '>HTML 5</h1>
-  <h1 className='text-xl text-white'>50%</h1>
+    <h1 className='text-xl text-white'>HTML 5</h1>
+    <h1 className='text-xl text-white'>50%</h1>
   </div>
-<progress className="progress text-indigo-950 w-full  bg-white" value="40" max="100"></progress>
-<h1 className='break-word'>I can style  fast using Plain Css with Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet rem dolor earum quo quod quisquam aut omnis reprehenderit! Optio, <magnam className="lorem20"></magnam></h1>
+  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
+  <h1 className='text-white break-words overflow-wrap text-start'>
+    I can style fast using Plain Css with.
+    
+  </h1>
 </div>
+
+<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
+  <div className='flex justify-between'>
+    <h1 className='text-xl text-white'>HTML 5</h1>
+    <h1 className='text-xl text-white'>50%</h1>
+  </div>
+  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
+  <h1 className='text-white break-words overflow-wrap text-start'>
+    I can style fast using Plain Css with.
+    
+  </h1>
+</div>
+
+
+<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
+  <div className='flex justify-between'>
+    <h1 className='text-xl text-white'>HTML 5</h1>
+    <h1 className='text-xl text-white'>50%</h1>
+  </div>
+  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
+  <h1 className='text-white break-words overflow-wrap text-start'>
+    I can style fast using Plain Css with.
+    
+  </h1>
+</div>
+
+</div>
+
 </div>
     </div>
   )
