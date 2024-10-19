@@ -45,9 +45,9 @@ setHandleListShow(!handleListShow);
   return (
     <div >
       
-      <nav className="p-[5px] sm:p-[5px] md:p-[8px] lg:p-[10px] navbar flex  flex-col  fixed  z-50  w-fit md:mt-[40px]  lg:mt-[50px] top-0 left-0 ">
+      <nav className="p-[5px] sm:p-[5px] md:p-[8px] lg:p-[10px] navbar flex  flex-col  fixed  z-50  w-fit md:mt-[40px]  lg:mt-[50px] top-0 left-0 " id="navbar">
           <img src={logoImage} alt="" className='w-[50px] sm:w-[70px] md:w-[90px] lg:w-[100px] h-[50px] sm:h-[70px] md:h-[90px] lg:h-[100px] rounded-md border-t-[1px] border-b-[1px] mb-3'/>
-        <div className='relative  md:px-[20px] lg:px-[30px]   transition duration-200 py-2 scale-x-100 hover:scale-x-100  hover:border-t-[1px] hover:border-b-[1px] text-white  hover:shadow-white rounded-md hidden sm:hidden md:block lg:block w-fit'>
+        <div className='relative  md:px-[5px] lg:px-[10px]   transition duration-200 py-2 scale-x-100 hover:scale-x-100  hover:border-t-[1px] hover:border-b-[1px] text-white  hover:shadow-white rounded-md hidden sm:hidden md:block lg:block w-fit'>
         <div className='flex gap-5 items-center text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl font-light relative flex-col rounded-md w-fit'>
 
           {location.pathname === '/' ? <p className='cursor-pointer text-md  border-b-[1px] border-t-[1px] hover:transition  duration-200 rounded-md p-[5px] w-[80px] h-[80px] flex items-center justify-center  ease-in-out border-white'><FaHome />Home</p> : <Link to='/'><p className='cursor-pointer  hover:border-b-[1px]  hover:border-t-[1px] hover:transition hover:scale-x-95 duration-200 rounded-md ease-in-out p-[5px] border-white w-[80px] h-[80px] flex items-center justify-center text-md'><FaHome />Home</p></Link>}

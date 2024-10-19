@@ -124,7 +124,7 @@ const Home = () => {
         data-social="github"
         aria-label="GitHub"
         href="https://www.github.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
+        className="relative overflow-hidden flex justify-center items-center w-10 sm:w-12 md:w-14 lg:w-16 h-10 sm:h-12 md:h-14 lg:h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
       >
         <div className="absolute bottom-0 left-0 w-full h-0 bg-gray-800 transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg
@@ -149,7 +149,7 @@ const Home = () => {
         data-social="linkedin"
         aria-label="LinkedIn"
         href="https://linkedin.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16  transition-all duration-300 ease-in-out hover:text-white hover:shadow-[3px_2px_45px_rgba(0,0,0,0.12)] rounded-md text-white"
+        className="relative overflow-hidden flex justify-center items-center w-10 sm:w-12 md:w-14 lg:w-16 h-10 sm:h-12 md:h-14 lg:h-16  transition-all duration-300 ease-in-out hover:text-white hover:shadow-[3px_2px_45px_rgba(0,0,0,0.12)] rounded-md text-white"
       >
         <div className="absolute bottom-0 left-0 w-full  bg-[#0274b3] transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg
@@ -175,7 +175,7 @@ const Home = () => {
         data-social="youtube"
         aria-label="Youtube"
         href="https://youtube.com/"
-        className="relative overflow-hidden flex justify-center items-center w-16 h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
+        className="relative overflow-hidden flex justify-center items-center w-10 sm:w-12 md:w-14 lg:w-16 h-10 sm:h-12 md:h-14 lg:h-16 rounded-md  transition-all duration-300 ease-in-out hover:text-white text-white"
       >
         <div className="absolute bottom-0 left-0 w-full h-0 bg-red-600 transition-all duration-300 ease-in-out group-hover:h-full"></div>
         <svg

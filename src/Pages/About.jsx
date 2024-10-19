@@ -1,6 +1,17 @@
 import React from 'react'
+import Accordion from '../Components/Accordion';
+import SkillDetails from '../Components/SkillDetails';
+
+
+
+
+
+
+
+
 
 const About = () => {
+  const detailsCSS = `asfsadf<span className="text-white">sdfa</span>`
   return (
     <div className=' flex flex-col items-center justify-center max-w-lg mx-auto text-center'>
       {/* About Me  Section*/}
@@ -22,44 +33,14 @@ In my free time, I <span className='text-white'>focus on</span>  expanding my <s
 
 <div className='mt-[50px]'>
 <h1 className='lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  text-white'>About My Skills</h1>
-<div className='flex w-[600px] flex-wrap  rounded-full gap-2 justify-center py-2 border-t-[1px] border-b-[1px] rounded-md'>
-
-<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
-  <div className='flex justify-between'>
-    <h1 className='text-xl text-white'>HTML 5</h1>
-    <h1 className='text-xl text-white'>50%</h1>
-  </div>
-  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
-  <h1 className='text-white break-words overflow-wrap text-start'>
-    I can style fast using Plain Css with.
-    
-  </h1>
-</div>
-
-<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
-  <div className='flex justify-between'>
-    <h1 className='text-xl text-white'>HTML 5</h1>
-    <h1 className='text-xl text-white'>50%</h1>
-  </div>
-  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
-  <h1 className='text-white break-words overflow-wrap text-start'>
-    I can style fast using Plain Css with.
-    
-  </h1>
-</div>
+<div className='flex w-[300px] transform duration-200 ease-in xs:w-[360] sm:w-[440px] md:w-[520px] lg:w-[600px] flex-wrap   gap-2 justify-center py-2 border-t-[1px] border-b-[1px] rounded-md mt-5'>
+<SkillDetails name='HTML 5' percentage='50%' details='sadifjaksldjf'/>
+<SkillDetails name='HTML 5' percentage='50%' details='sadifjaksldjf'/>
+<SkillDetails name='HTML 5' percentage='50%' details='sadifjaksldjf'/>
+<SkillDetails name='HTML 5' percentage='50%' details='sadifjaksldjf'/>
+<SkillDetails name='HTML 5' percentage='50%' details='sadifjaksdf=dfdfdfdldjf'/>
 
 
-<div className='w-[290px] border-t-[1px] border-b-[1px] rounded-md p-[10px] relative flex flex-wrap flex-col gap-1'>
-  <div className='flex justify-between'>
-    <h1 className='text-xl text-white'>HTML 5</h1>
-    <h1 className='text-xl text-white'>50%</h1>
-  </div>
-  <progress className="progress text-indigo-950 w-full bg-white" value="40" max="100"></progress>
-  <h1 className='text-white break-words overflow-wrap text-start'>
-    I can style fast using Plain Css with.
-    
-  </h1>
-</div>
 
 </div>
 
@@ -68,4 +49,4 @@ In my free time, I <span className='text-white'>focus on</span>  expanding my <s
   )
 }
 
-export default About
+export default About;

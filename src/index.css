@@ -418,3 +418,12 @@
 .card4:hover .discord {
   fill: white;
 }
+
+@media (max-width: 582px) {
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    background: #05365c;
+    height: 20px;
+  }
+}
