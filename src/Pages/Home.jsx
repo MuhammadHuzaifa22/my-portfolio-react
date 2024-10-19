@@ -95,7 +95,7 @@ const Home = () => {
     
 
   return (
-    <div className="mt-[-50px] pt-[100px] text-white ">
+    <div className="mt-[-50px] pt-[100px] text-white "  id="home">
       {/* Hero Started */}
       
       

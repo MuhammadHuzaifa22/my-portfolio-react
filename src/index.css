@@ -153,13 +153,11 @@
  /* Body Background */
 
  body {
-  min-height: 100vh; /* Ensures the body is at least full viewport height */
-  background-image: url('./assets/Images/3d-rendering-abstract-black-white-background_23-2150914033.avif');
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-attachment: fixed; /* Optional: makes the background fixed while scrolling */
-  margin: 0; /* Remove default margin */
+  min-height: 100vh; 
+ background: black;
 }
+
+
 
 
 /* Keyframes for background movement */
