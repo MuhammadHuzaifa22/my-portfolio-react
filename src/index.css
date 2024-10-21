@@ -152,8 +152,10 @@
 }
  /* Body Background */
  body{
-  background: #395ca8;
-  
+  background-image: url('./assets/Images/pngtree-binary-code-blue-gradient-abstract-background-image_770054.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
  }
 
 

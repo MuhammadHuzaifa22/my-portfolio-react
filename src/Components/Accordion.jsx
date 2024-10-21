@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 
-
 const Accordion = ({content}) => {
     const [isOpen, setIsOpen] = useState(false);
   

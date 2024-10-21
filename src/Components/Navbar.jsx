@@ -55,22 +55,22 @@ setHandleListShow(!handleListShow);
         <div className="text-md font-mono text-[#24ff18] inline-flex items-center">
           &lt; Home /&gt;
         </div></p> : <Link to='/'><p className='cursor-pointer  hover:border-[1px]   hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white w-[110px] h-[40px] flex items-center justify-center text-md font-mono'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
-          &lt; Home &gt;
+          Home 
         </div></p></Link>}
-          {location.pathname === '/about' ? <p className='cursor-pointer text-md  border-[1px] hover:transition  duration-200 p-[5px] ease-in-out w-[120px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-white inline-flex items-center">
+          {location.pathname === '/about' ? <p className='cursor-pointer text-md  border-[1px] hover:transition  duration-200 p-[5px] ease-in-out w-[120px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
           &lt; About /&gt;
-        </div></p> : <Link to='/about'><p className='w-[110px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-[1px] hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-white inline-flex items-center">
-          &lt; About &gt;
+        </div></p> : <Link to='/about'><p className='w-[110px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-[1px] hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
+           About
         </div></p></Link>}
-          {location.pathname === '/projects' ? <p className='cursor-pointer text-md border-b-[1px] border-t-[2px] hover:transition  duration-200 rounded-md p-[5px] ease-in-out w-[140px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-blue-500 inline-flex items-center">
+          {location.pathname === '/projects' ? <p className='cursor-pointer text-md border-[1px]  hover:transition  duration-200  p-[5px] ease-in-out w-[145px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
           &lt; Projects /&gt;
-        </div></p> : <Link to='/projects'><p className='w-[130px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-b-[1px] hover:border-t-[1px] hover:transition hover:scale-x-95 duration-200 rounded-md ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-blue-500 inline-flex items-center">
-          &lt; Projects &gt;
+        </div></p> : <Link to='/projects'><p className='w-[130px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-[1px]  hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
+           Projects 
         </div></p></Link>}
-          {location.pathname === '/contact' ? <p className='cursor-pointer text-md border-b-[1px] border-t-[1px] hover:transition  duration-200 rounded-md p-[5px] ease-in-out border-white w-[130px] h-[40px]  flex items-center justify-center'><div className="text-lg font-mono text-blue-500 inline-flex items-center">
+          {location.pathname === '/contact' ? <p className='cursor-pointer text-md  border-[1px] hover:transition  duration-200 p-[5px] ease-in-out border-white w-[135px] h-[40px]  flex items-center justify-center'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
           &lt; Contact /&gt;
-        </div></p> : <Link to='/contact'><p className='w-[130px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-b-[1px] hover:border-t-[1px] hover:transition hover:scale-x-95 duration-200 rounded-md ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-blue-500 inline-flex items-center">
-          &lt; Contact &gt;
+        </div></p> : <Link to='/contact'><p className='w-[130px] h-[40px] flex items-center justify-center cursor-pointer text-md  hover:border-[1px] hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
+           Contact 
         </div></p></Link>}
 
         </div>

@@ -101,7 +101,7 @@ const Home = () => {
         {/* Top Section */}
         <div className="text-center flex flex-col gap-5">
                   
-          <h1 className="lobster text-xl font-mono sm:text-2xl md:text-3xl lg:text-4xl font-medim">
+          <h1 className="lobster text-xl font-mono sm:text-2xl md:text-3xl lg:text-4xl font-medim text-[#24ff18]">
             Junior Front End Developer
           </h1>
     
@@ -109,11 +109,11 @@ const Home = () => {
     
     
     
-          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
-            Hi I am  <span className=" text-white">Huzaifa Furqan</span>
+          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
+            Hi I am  <span className=" text-[#24ff18]">Huzaifa Furqan</span>
           </h1>
-          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-blue-300">
-            I <span className=" text-white ">design</span> and <span className=" text-white">code simple things,</span> and I love what I do.
+          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-white">
+            I <span className=" text-[#24ff18] ">design</span> and <span className=" text-[#24ff18]">code simple things,</span> and I love what I do.
           </h1>
           <div className={`h-[180px] sm:h-[200px] md:h-[230px] lg:h-[250px] w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] mx-auto mt-[80px] flex justify-center mb-[50px] rounded-md border-t-[1px] border-b-[1px]   transform duration-100  ${imageRotatingStyle ? 'border-t-[2px] border-b-[2px]' : ''}`}>
           <div className={`absolute ml-[200px] sm:ml-[230px] md:ml-[260px] lg:ml-[280px] cursor-pointer mt-[100px] rounded-md py-[10px] px-[10px] border-t-[1px] border-b-[1px] border-white w-[40px] sm:w-[50px] md:w-[60px] lg:w-[70px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] flex items-center justify-center transition duration-100    ${imageRotatingStyle ? '  transform transition ease-in duration-500 -translate-y-24 -translate-x-17' : ''}`}>
@@ -212,17 +212,17 @@ const Home = () => {
 
   
       <div id="brief-intro-body" className="p-5 flex flex-col justify-center items-center h-fit text-center gap-5 max-w-md mx-auto">
-        <h1 className="lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  ">Let Me Introduce My Self</h1>
-      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">I am good in <span className="text-white font-light">JavaScript</span>, <span className="text-white font-light">React</span>, <span className="text-white font-light">Tailwind CSS</span>, and <span className="text-white font-light">Bootstrap</span>.</h1>
-      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
-  I am also good in <span className="text-white font-light">problem-solving</span>, <span className="text-white font-light">fast typing</span>, <span className="text-white font-light">teaching</span>, and <span className="text-white font-light">self-motivation</span>.
+        <h1 className="lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  text-[#24ff18]">Let Me Introduce My Self</h1>
+      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">I am good in <span className="text-[#24ff18] font-light">JavaScript</span>, <span className="text-[#24ff18] font-light">React</span>, <span className="text-[#24ff18] font-light">Tailwind CSS</span>, and <span className="text-[#24ff18] font-light">Bootstrap</span>.</h1>
+      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
+  I am also good in <span className="text-[#24ff18] font-light">problem-solving</span>, <span className="text-[#24ff18] font-light">fast typing</span>, <span className="text-[#24ff18] font-light">teaching</span>, and <span className="text-[#24ff18] font-light">self-motivation</span>.
 </h1>
-<h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
-  I am interested in <span className="text-white font-light">web design</span>, <span className="text-white font-light">development</span>, and <span className="text-white font-light">learning English</span>.
+<h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
+  I am interested in <span className="text-[#24ff18] font-light">web design</span>, <span className="text-[#24ff18] font-light">development</span>, and <span className="text-[#24ff18] font-light">learning English</span>.
 </h1>
 
 
-<h1 className="text-xl md:text-2xl lg:text-3xl lobster mt-[50px]">Reach Out</h1>
+<h1 className="text-xl md:text-2xl lg:text-3xl lobster mt-[50px] text-[#24ff18]">Reach Out</h1>
 <div className="flex space-x-6 justify-center items-center flex-wrap">
       {/* YouTube */}
       <a

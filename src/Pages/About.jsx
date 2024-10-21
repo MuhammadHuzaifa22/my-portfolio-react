@@ -5,7 +5,8 @@ import { SiAboutdotme } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { FaKeyboard } from "react-icons/fa";
 import '../index.css'
-
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaCss3Alt } from "react-icons/fa";
 
 
 
@@ -41,11 +42,11 @@ In my free time, I <span className='text-[#24ff18]'>focus on</span>  expanding m
 <div className='mt-[50px]' id="skills-section">
 <h1 className='lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  text-[#24ff18] inline-flex gap-2'>About My Skills<GiSkills className=' rounded-md h-[40px]'/></h1>
 <div className='flex w-[300px] transform duration-200 ease-in xs:w-[360] sm:w-[440px] md:w-[520px] lg:w-[600px] flex-wrap   gap-2 justify-center py-2  mt-5'>
-<SkillDetails name='HTML 5' percentage='50%' details=''/>
-<SkillDetails name='Plain CSS' percentage='50%' details='sadifjaksldjf'/>
+<SkillDetails name='HTML 5' percentage='50%' details='' />
+<SkillDetails name='Plain CSS' percentage='50%' details='sadifjaksldjf' icon={<FaCss3Alt className='text-2xl'/>}/>
 <SkillDetails name='JavaScript' percentage='60%' details='sadifjaksldjf'/>
-<SkillDetails name='Bootstrap' percentage='60%' details='sadifjaksldjf'/>
-<SkillDetails name='Tailwind CSS' percentage='70%' details='sadifjaksdf=dfdfdfdldjf'/>
+<SkillDetails name='Bootstrap' percentage='60%' details='sadifjaksldjf' />
+<SkillDetails name='Tailwind CSS' percentage='70%' details='sadifjaksdf=dfdfdfdldjf' icon={<RiTailwindCssFill className='text-2xl'/>}/>
 <h1 className='lobster text-xl sm:text-xl md:text-2xl lg:text-3xl w-full font-medium  text-[#24ff18] my-3 inline-flex justify-center gap-2 '>About My Typing Skills<FaKeyboard className=' rounded-md h-[40px]'/></h1>
 <SkillDetails 
   name={<span className="text-sm">English</span>} 
