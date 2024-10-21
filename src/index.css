@@ -151,12 +151,10 @@
   box-shadow: 0 -5px 5px rgba(255, 255, 255, 0.5); /* Adjust values as needed */
 }
  /* Body Background */
-
- body {
-  min-height: 100vh; 
- background: black;
-}
-
+ body{
+  background: #395ca8;
+  
+ }
 
 
 
@@ -200,7 +198,7 @@
 
 
 .lobster {
-  font-family: "Lobster", sans-serif;
+  font-family: monospace;
   font-weight: 300;
   font-style: normal;
 }
@@ -425,3 +423,6 @@
     height: 20px;
   }
 }
+
+
+

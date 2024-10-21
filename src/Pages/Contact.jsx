@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <>
     
-     <div className="relative w-[200px] h-[400px] mx-auto">
+     <div className="" id="contact">
       {/* Confetti in the background */}
       <div className="text-3xl pacifico">
       Contact

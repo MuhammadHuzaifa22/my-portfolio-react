@@ -96,24 +96,23 @@ const Home = () => {
 
   return (
     <div className="mt-[-50px] pt-[100px] text-white "  id="home">
-      {/* Hero Started */}
-      
-      
+      {/* Hero Started */}      
       <div className="flex justify-center items-center  pt-5">
-
-
-
-  
         {/* Top Section */}
         <div className="text-center flex flex-col gap-5">
                   
-          <h1 className="lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medim">
+          <h1 className="lobster text-xl font-mono sm:text-2xl md:text-3xl lg:text-4xl font-medim">
             Junior Front End Developer
           </h1>
-          <h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
+    
+    
+    
+    
+    
+          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
             Hi I am  <span className=" text-white">Huzaifa Furqan</span>
           </h1>
-          <h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-blue-300">
+          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-blue-300">
             I <span className=" text-white ">design</span> and <span className=" text-white">code simple things,</span> and I love what I do.
           </h1>
           <div className={`h-[180px] sm:h-[200px] md:h-[230px] lg:h-[250px] w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] mx-auto mt-[80px] flex justify-center mb-[50px] rounded-md border-t-[1px] border-b-[1px]   transform duration-100  ${imageRotatingStyle ? 'border-t-[2px] border-b-[2px]' : ''}`}>
@@ -210,77 +209,15 @@ const Home = () => {
     
 
 
-    
-      {/* <div className="flex items-center justify-center min-h-screen bg-none  rounded-md transform rotate-x-12 perspective-1000 ">
-          
-
-      
-      <div className="relative w-[320px] xs:w-[350px] sm:w-[400px] md:w-[450px] lg:w-[500px] h-[320px] xs:h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] bg-black rounded-lg shadow-md transform rotate-x-12 perspective-1000 shadow-white border-[1px] border-white mt-[80px] sm:mt-[70px] md:mt-[50px] lg:mt-5  ">
-      
-  
-  <div className="absolute top-0 left-0 w-full h-[75%] rounded-t-lg border-4 border-black bg-opacity-30 border-t-[15px]">
-  {laptopStyle ? <div className="chat chat-end absolute  ml-[-80px] sm:ml-[-100px] md:ml-[-150px] lg:ml-[-200px] ">
-  <div className="chat-bubble text-[#cd5ff8] text-sm sm:text-md md:text-lg lg:text-xl">You can check my <span className="text-white">LinkedIn</span> posts</div>
-</div> : null}  
- 
-    <iframe
-      src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7240409652209844224"
-      height="100%"
-      width="100%"
-      frameBorder="2"
-      allowFullScreen
-      title="LinkedIn Post"
-      className="rounded-t-lg"
-    ></iframe>
-  </div>
-
-  
-  <div className="absolute bottom-0 w-full h-[25%] bg-black rounded-b-lg border-t-4 border-black flex flex-col justify-center items-center px-[10px] py-2">
-    {[...Array(3)].map((_, rowIndex) => (
-      <div key={rowIndex} className="flex justify-center gap-2 xs:gap-2 sm:gap-3 md:gap-4 lg:gap-5 w-fit px-[3px] sm:px-[5px] md:px-[10px] lg:px-[20px] mb-1 border-b-[1px] border-t-[1px] py-[3px] md:py-[3px] lg:py-[5px] shadow-sm shadow-white">
-        {[...Array(5)].map((_, keyIndex) => (
-          <div
-            key={keyIndex}
-            className="w-[45px] xxs:w-[50px] xs:w-[55px] sm:w-[60px] md:w-[65px] lg:w-[70px] h-[15px] xs:h-[15px] sm:h-[20px] md:h-[25px] lg:h-[30px] bg-[#cd5ff8] rounded-sm sm:rounded-sm lg:rounded-md shadow-sm shadow-white hover:scale-110 cursor-pointer active:scale-100 active:border-[1px] text-center text-xs flex items-center justify-center border-4 border-[#be45ee] active:border-[#c73ffd] transition-transform duration-150 ease-in-out "
-            onClick={playSound}
-          >
-            <audio ref={audioRef} src="/src/assets/Audio/keyboard5-88069.mp3" />
-            Top Posts
-          </div>
-        ))}
-      </div>
-    ))}
-  </div>
-
-  
-  <div className="absolute top-[-30px] left-[40px] bg-blue-500 text-white p-2 rounded-lg shadow-lg transform -rotate-12 hover:scale-125 cursor-pointer active:scale-110">
-    React
-  </div>
-  <div className="absolute top-[-20px] right-[40px] bg-[#cd5ff8] text-white p-2 rounded-lg shadow-lg transform rotate-6 hover:scale-125 cursor-pointer">
-    JS
-  </div>
-  <div className="absolute top-[10px] right-[100px] bg-[#cd5ff8] text-white p-2 rounded-lg hover:scale-125 cursor-pointer">
-    <>&lt;/&gt;</>
-  </div>
-</div>
-
-
-
-
-
-
-    </div> */}
-
-
 
   
       <div id="brief-intro-body" className="p-5 flex flex-col justify-center items-center h-fit text-center gap-5 max-w-md mx-auto">
         <h1 className="lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium  ">Let Me Introduce My Self</h1>
-      <h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">I am good in <span className="text-white font-light">JavaScript</span>, <span className="text-white font-light">React</span>, <span className="text-white font-light">Tailwind CSS</span>, and <span className="text-white font-light">Bootstrap</span>.</h1>
-      <h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
+      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">I am good in <span className="text-white font-light">JavaScript</span>, <span className="text-white font-light">React</span>, <span className="text-white font-light">Tailwind CSS</span>, and <span className="text-white font-light">Bootstrap</span>.</h1>
+      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
   I am also good in <span className="text-white font-light">problem-solving</span>, <span className="text-white font-light">fast typing</span>, <span className="text-white font-light">teaching</span>, and <span className="text-white font-light">self-motivation</span>.
 </h1>
-<h1 className="open-sans text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
+<h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-blue-300 font-light">
   I am interested in <span className="text-white font-light">web design</span>, <span className="text-white font-light">development</span>, and <span className="text-white font-light">learning English</span>.
 </h1>
 
@@ -301,7 +238,7 @@ const Home = () => {
         href="https://www.linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-blue-400 transition-colors duration-300 ease-in-out"
+        className="text-slate-100 hover:text-blue-600 transition-colors duration-300 ease-in-out"
       >
         <FaLinkedin className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>
@@ -310,16 +247,11 @@ const Home = () => {
         href="https://www.github.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-black transition-colors duration-300 ease-in-out"
+        className="text-slate-100 hover:text-gray-500 transition-colors duration-300 ease-in-out"
       >
         <FaGithub className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>
     </div>
-
-
-
-
-
       </div>
     </div>
   );
