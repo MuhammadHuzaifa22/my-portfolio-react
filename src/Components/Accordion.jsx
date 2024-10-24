@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FcViewDetails } from "react-icons/fc";
 
 const Accordion = ({content}) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Accordion = ({content}) => {
             className="w-full text-left px-[5px]  bg-transparent rounded-md flex justify-between items-center"
             onClick={toggleAccordion}
           >
-            <span className="text-md font-light text-white font-mono">Details</span>
+            <span className="text-md font-light text-white font-mono inline-flex items-center gap-[5px]">Details <FcViewDetails /></span>
             <svg
               className={`w-6 h-[20px] transform transition-transform duration-200 ease-in-out ${
                 isOpen ? 'rotate-180' : ''

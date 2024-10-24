@@ -15,7 +15,7 @@ const ProgressBar = ({ progress }) => {
 
 
 
-const SkillDetails = ({name,percentage,details,wordsDetails,icon}) => {
+const SkillDetails = ({name,percentage,details,wordsDetails,icon,progress}) => {
   return (
     <div className='w-full md:w-[220px] lg:w-[290px] border-[1px] p-[5px] relative flex flex-wrap flex-col gap-1'>
   
@@ -26,7 +26,7 @@ const SkillDetails = ({name,percentage,details,wordsDetails,icon}) => {
   </div> 
     
   
-  <ProgressBar progress={50} />
+  <ProgressBar progress={progress} />
   <h1 className='text-white break-words overflow-wrap text-start'>
     <Accordion content={details}/>
     
