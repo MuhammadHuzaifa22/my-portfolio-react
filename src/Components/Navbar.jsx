@@ -1,5 +1,6 @@
 import React, { useState ,useEffect} from 'react'
 import '../index.css';
+import CustomLogo from "../Components/CustomLogo";
 import { FcAbout } from "react-icons/fc";
 import { IoIosContact } from "react-icons/io";
 import { Link, useLocation } from 'react-router-dom';
@@ -40,34 +41,61 @@ setHandleListShow(!handleListShow);
   return (
     <div >
       
-      <nav className="p-[5px] sm:p-[5px] md:p-[8px] lg:p-[10px] navbar flex  flex-col  fixed  z-50  w-fit md:mt-[40px]  lg:mt-[50px] top-0 left-0 " id="navbar">
-          <img src={logoImage} alt="" className='w-[50px] sm:w-[70px] md:w-[90px] lg:w-[100px] h-[50px] sm:h-[70px] md:h-[90px] lg:h-[100px] rounded-md border-t-[1px] border-b-[1px] mb-3'/>
-        <div className='relative  md:px-[5px] lg:px-[10px]   transition duration-200 py-2 scale-x-100 hover:scale-x-100  hover:border-[1px] text-white  hover:shadow-white  hidden sm:hidden md:block lg:block w-fit'>
-        <div className='flex gap-5 items-center text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl font-light relative flex-col rounded-md w-fit'>
+      <nav className="p-[5px]  flex  items-center  z-50  w-full  justify-between" >
+        <div className='flex items-center gap-[10px] px-[10px]'>
+          <CustomLogo className="text-lg md:text-xl lg:text-2xl"/>
+          <h1 className="text-lg md:text-xl lg:text-2xl  playfair-display font-bold">Huzaifa Furqan</h1>
+        </div>
+        <div className='relative  md:px-[5px] lg:px-[10px] transition duration-200 py-2 scale-x-100 hover:scale-x-100  text-white  hover:shadow-white  hidden sm:hidden md:block lg:block w-fit'>
+        <div className='flex gap-[10px] items-center text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl font-light relative  rounded-md w-fit'>
 
-          {location.pathname === '/' ? <p className='cursor-pointer text-md  border-[1px]  hover:transition  duration-200  p-[2px] w-[120px] h-[40px] font-light font-mono flex items-center justify-center  ease-in-out border-white '>
-         
-   
-        <div className="text-md font-mono text-[#24ff18] inline-flex items-center gap-[2px]">
-          &lt;<AiFillHome /> Home /&gt;
-        </div></p> : <Link to='/'><p className='cursor-pointer  hover:border-[1px]   hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white w-[110px] h-[40px] flex items-center justify-center text-md font-mono'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center">
-        <AiFillHome /> Home 
-        </div></p></Link>}
-          {location.pathname === '/about' ? <p className='cursor-pointer text-md  border-[1px] hover:transition  duration-200 p-[5px] ease-in-out w-[130px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-          &lt;<FaCircleInfo /> About /&gt;
-        </div></p> : <Link to='/about'><p className='w-[120px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-[1px] hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-        <FaCircleInfo />   About
-        </div></p></Link>}
-          {location.pathname === '/projects' ? <p className='cursor-pointer text-md border-[1px]  hover:transition  duration-200  p-[5px] ease-in-out w-[165px] h-[40px]  flex items-center justify-center border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-          &lt; <GrProjects />Projects /&gt;
-        </div></p> : <Link to='/projects'><p className='w-[130px] h-[40px] flex items-center justify-center cursor-pointer text-md hover:border-[1px]  hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-        <GrProjects /> Projects 
-        </div></p></Link>}
-          {location.pathname === '/contact' ? <p className='cursor-pointer text-md  border-[1px] hover:transition  duration-200 p-[5px] ease-in-out border-white w-[150px] h-[40px]  flex items-center justify-center'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-          &lt;<GrContactInfo /> Contact /&gt;
-        </div></p> : <Link to='/contact'><p className='w-[140px] h-[40px] flex items-center justify-center cursor-pointer text-md  hover:border-[1px] hover:transition hover:scale-x-95 duration-200  ease-in-out p-[5px] border-white'><div className="text-lg font-mono text-[#24ff18] inline-flex items-center gap-[5px]">
-        <GrContactInfo /> Contact 
-        </div></p></Link>}
+        {location.pathname === '/' ? (
+  <p className="cursor-pointer text-md w-[120px] h-[20px] playfair-display flex items-center justify-center hover:text-white bg-[black] border-[1px] border-[black]  transition duration-100 rounded-sm">
+    &lt;Home/&gt;
+  </p>
+) : (
+  <Link to="/">
+    <p className="cursor-pointer w-[110px] h-[20px] text-md playfair-display flex items-center justify-center text-black hover:text-white  hover:bg-[black] border-black border-[1px]  transition duration-100 rounded-sm">
+      Home<AiFillHome /> 
+    </p>
+  </Link>
+)}
+
+{location.pathname === '/about' ? (
+  <p className="cursor-pointer text-md hover:text-white w-[130px] h-[20px] p-[5px] flex items-center justify-center playfair-display bg-[black] border-[1px] border-[black]  transition duration-200 rounded-sm">
+    &lt;About/&gt;
+  </p>
+) : (
+  <Link to="/about">
+    <p className="cursor-pointer text-md text-black hover:text-white w-[120px] h-[20px] p-[5px] flex items-center justify-center playfair-display hover:bg-[black] border-[black] border-[1px]  transition duration-200 rounded-sm">
+    About<FaCircleInfo /> 
+    </p>
+  </Link>
+)}
+
+{location.pathname === '/projects' ? (
+  <p className="cursor-pointer text-md hover:text-white w-[165px] h-[20px] p-[5px] flex items-center justify-center playfair-display text-white bg-[black]  border-[black] border-[1px] transition duration-200 rounded-sm">
+    &lt;Projects/&gt;
+  </p>
+) : (
+  <Link to="/projects">
+    <p className="cursor-pointer text-md hover:text-white text-black w-[130px] h-[20px] p-[5px] flex items-center justify-center playfair-display hover:bg-[black] border-[1px] border-[black]  transition duration-200 rounded-sm">
+       Projects<GrProjects className='text-sm'/>
+    </p>
+  </Link>
+)}
+{location.pathname === '/contact' ? (
+  <p className="cursor-pointer text-md hover:text-white text-white w-[150px] h-[20px] p-[5px] flex items-center justify-center playfair-display bg-[black] border-[1px] border-[black] transition duration-200 rounded-sm">
+   &lt;Contact/&gt;
+  </p>
+) : (
+  <Link to="/contact">
+    <p className="cursor-pointer text-md hover:text-white text-black w-[140px] h-[20px] p-[5px] flex items-center justify-center playfair-display hover:bg-[black] border-[black] border-[1px] transition duration-200 rounded-sm">
+      Contact<GrContactInfo />
+    </p>
+  </Link>
+)}
+
 
         </div>
         </div>
@@ -82,7 +110,7 @@ setHandleListShow(!handleListShow);
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-md dropdown-content mt-[-40px] w-52 p-2  text-lg xs:text-xl sm:text-2xl  justify-center items-center gap-1 absolute mr-[-200px]  border-t-[1px] border-b-[1px] bg-white text-black">
+        className="menu menu-md dropdown-content mt-[-40px] w-52 p-2  text-lg xs:text-xl sm:text-2xl  justify-center items-center gap-1 absolute   border-t-[1px] border-b-[1px] bg-white text-black">
         <Link to="/"><p className='cursor-pointer roboto  w-full border-t-[1px] border-b-[1px]  hover:border-white flex items-center gap-1 border-white   rounded-md px-[5px]'>Home</p></Link>
         <Link to="/about"><p className='cursor-pointer roboto  border-t-[1px] border-b-[1px] hover:border-white flex items-center gap-1 border-white   w-full rounded-md px-[5px]'>About</p></Link>
         <Link to="/projects"><p className='cursor-pointer roboto  border-t-[1px] border-b-[1px] hover:border-white  flex items-center gap-1 border-white   w-full rounded-md px-[5px]'> Projects</p></Link>

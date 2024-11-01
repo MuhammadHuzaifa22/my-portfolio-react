@@ -3,7 +3,7 @@ import "../index.css";
 import { useSpring, animated } from "@react-spring/web";
 import logoImage from '/src/assets/Images/my professional logo.png'
 import { FaLinkedin, FaYoutube, FaGithub } from 'react-icons/fa';
-import TypewriterEffect from "../Components/TypeWriterEffect";
+
 import { SiAltiumdesigner } from "react-icons/si";
 import { FaCode } from "react-icons/fa6";
 import { SiBookmyshow } from "react-icons/si";
@@ -15,7 +15,7 @@ import { FaReact } from "react-icons/fa";
 import { RiKeyboardLine } from "react-icons/ri";
 import { CgWebsite } from "react-icons/cg";
 import { MdDeveloperMode } from "react-icons/md";
-import { Typewriter } from "react-simple-typewriter";
+
 
 
 
@@ -107,24 +107,24 @@ const Home = () => {
 
   return (
     
-    <div className="mt-[-50px] pt-[100px] text-white "  id="home">
+    <div className="mt-[-50px] pt-[100px] "  id="home">
       
       {/* Hero Started */}      
       <div className="flex justify-center items-center  pt-5">
         {/* Top Section */}
         <div className="text-center flex flex-col gap-5">
                   
-          <h1 className="lobster text-xl font-mono sm:text-xl md:text-2xl lg:text-3xl font-medim text-[#24ff18] text-center mx-auto ">
-    <TypewriterEffect details1={'Welcome To My Website!'} details2="Junior Front End Developer"/>          
+          <h1 className=" text-xl sm:text-xl md:text-2xl lg:text-3xl font-medim text-center mx-auto playfair-display font-medium">
+    .Jr Front End Developer
           </h1>
           
-          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
-    Hi I am <span className="text-[#24ff18] inline-flex items-center">
+          <h1 className="playfair-display text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 font-normal ">
+    Hi I am <span className="font-medium inline-flex items-center">
     Huzaifa Furqan<CustomLogo />
       </span>
             </h1>
-          <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-light text-white">
-          I <span className=" text-[#24ff18] inline-flex  items-center">design<SiAltiumdesigner /></span> and <span className=" text-[#24ff18] inline-flex items-center gap-[3px]">code<FaCode/> simple things </span> and I love what to do.
+          <h1 className="playfair-display text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2  font-normal ">
+          I <span className=" font-medium inline-flex  items-center">design<SiAltiumdesigner /></span> and <span className="font-medium  inline-flex items-center gap-[3px]">code<FaCode/> simple things </span> and I love what to do.
           </h1>
         
         </div>
@@ -135,22 +135,22 @@ const Home = () => {
 
       
       <div id="brief-intro-body" className="p-5 flex flex-col justify-center items-center h-fit text-center gap-5 max-w-md mx-auto mt-[100px]">
-        <h1 className="lobster text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-[#24ff18]"><TypewriterEffect details1={'Let Me Introduce My Self'}/></h1>
-      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">I am good in <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">JavaScript<IoLogoJavascript/></span>, <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">React<FaReact/></span>, <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">Tailwind CSS<RiTailwindCssFill /></span>, and <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">Bootstrap<FaBootstrap/></span>.</h1>
-      <h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
-  I am also good in <span className="text-[#24ff18] font-light">problem-solving</span>, <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">fast typing<RiKeyboardLine /></span>, <span className="text-[#24ff18] font-light">teaching</span>, and <span className="text-[#24ff18] font-light">self-motivation</span>.
+        <h1 className="playfair-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium ">Let Me Introduce My Self</h1>
+      <h1 className="playfair-display text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 font-normal">I am good in <span className="font-medium inline-flex items-center gap-[5px]">JavaScript<IoLogoJavascript/></span>, <span className="font-medium inline-flex items-center gap-[5px]">React<FaReact/></span>, <span className="font-medium inline-flex items-center gap-[5px]">Tailwind CSS<RiTailwindCssFill /></span>, and <span className="font-medium inline-flex items-center gap-[5px]">Bootstrap<FaBootstrap/></span>.</h1>
+      <h1 className="playfair-display text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 font-normal">
+  I am also good in <span className=" font-medium">problem-solving</span>, <span className="font-medium inline-flex items-center gap-[5px]">fast typing<RiKeyboardLine /></span>, <span className="font-medium">teaching</span>, and <span className="font-medium">self-motivation</span>.
 </h1>
-<h1 className="font-mono text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 text-white font-light">
-  I am interested in <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">web design<CgWebsite /></span>, <span className="text-[#24ff18] font-light inline-flex items-center gap-[5px]">development<MdDeveloperMode /></span>, and <span className="text-[#24ff18] font-light">learning English</span>.
+<h1 className="text-sm xs:text-sm sm:text-md md:text-lg lg:text-xl mt-2 playfair-display">
+  I am interested in <span className="font-medium inline-flex items-center gap-[5px]">web design<CgWebsite /></span>, <span className="font-medium inline-flex items-center gap-[5px]">development<MdDeveloperMode /></span>, and <span className="font-medium">learning English</span>.
 </h1>
-<h1 className="text-xl md:text-2xl lg:text-3xl lobster mt-[50px] text-[#24ff18]"><TypewriterEffect details1={'Reach Out'}/></h1>
+<h1 className="text-xl md:text-2xl lg:text-3xl playfair-display font-medium mt-[50px]">Reach Out</h1>
 <div className="flex space-x-6 justify-center items-center flex-wrap">
       {/* YouTube */}
       <a
         href="https://www.youtube.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-red-600 transition-colors duration-300 ease-in-out"
+        className="hover:text-red-600 transition-colors duration-300 ease-in-out"
       >
         <FaYoutube className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>
@@ -159,7 +159,7 @@ const Home = () => {
         href="https://www.linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-blue-600 transition-colors duration-300 ease-in-out"
+        className="hover:text-blue-600 transition-colors duration-300 ease-in-out"
       >
         <FaLinkedin className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>
@@ -168,7 +168,7 @@ const Home = () => {
         href="https://www.github.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-100 hover:text-gray-500 transition-colors duration-300 ease-in-out"
+        className="hover:text-gray-500 transition-colors duration-300 ease-in-out"
       >
         <FaGithub className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10 hover:scale-110 transform transition-transform duration-300 ease-in-out" />
       </a>

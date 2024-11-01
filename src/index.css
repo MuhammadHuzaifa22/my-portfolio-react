@@ -152,10 +152,11 @@
 }
  /* Body Background */
  body{
-  background-image: url('./assets/Images/pngtree-binary-code-blue-gradient-abstract-background-image_770054.jpg');
+  /* background-image: url('./assets/Images/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 100vh; */
+  
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -164,8 +165,54 @@
  }
 
 
+ .chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+ .bebas-neue-regular{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+}
+
+.audiowide {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
  .pixel-spinner, .pixel-spinner * {
   box-sizing: border-box;
+}
+
+
+.yatra-one-regular {
+  font-family: "Yatra One", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.yatra-one-light {
+  font-family: "Yatra One", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.text-me-one-regular {
+  font-family: "Text Me One", sans-serif;
+  
+  font-style: normal;
 }
 
 .pixel-spinner {
@@ -180,8 +227,8 @@
 .pixel-spinner .pixel-spinner-inner {
   width: calc(70px / 7);
   height: calc(70px / 7);
-  background-color: #24ff18;
-  color: #24ff18;
+  background-color: white;
+  color: black;
   box-shadow: 15px 15px  0 0,
               -15px -15px  0 0,
               15px -15px  0 0,
@@ -285,25 +332,34 @@
 
 .playfair-display {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: medium;
   font-style: normal;
 }
 
 .oswald {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 
 .raleway {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 
 
+
+.oxanium{
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 #ul #li:hover:nth-child(1) a {
   background-color: #3b5998;
@@ -404,6 +460,10 @@
   fill: #03A9F4;
 }
 
+.tg{
+color: #10B981;
+}
+
 .card3 {
   width: 90px;
   height: 90px;
@@ -486,3 +546,4 @@
   }
 }
 
+ 
